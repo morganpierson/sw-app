@@ -1,0 +1,19 @@
+{
+  "name": "starwars",
+  "version": "1.0.0",
+  "description": "Single Page application using Node &amp; React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SW-App/sw-app.git"
+  },
+  "author": "morgan pierson/justin pierson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SW-App/sw-app/issues"
+  },
+  "homepage": "https://github.com/SW-App/sw-app#readme"
+}
