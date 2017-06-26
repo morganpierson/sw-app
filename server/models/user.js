@@ -8,5 +8,7 @@ const User = new Schema({
     type: String
   },
   password: String,
-  favorites: Array //reference to data pulled from API
+  favorites: Array
 })
+
+module.exports = mongoose.model('user', User);
