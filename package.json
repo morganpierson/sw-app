@@ -4,7 +4,8 @@
   "description": "Single Page application using Node &amp; React",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -17,8 +18,12 @@
   },
   "homepage": "https://github.com/SW-App/sw-app#readme",
   "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.17.2",
     "express": "^4.15.3",
+    "http": "0.0.0",
     "mongoose": "^4.11.0",
+    "nodemon": "^1.11.0",
     "react": "^15.6.1",
     "react-redux": "^5.0.5",
     "redux": "^3.7.1"
